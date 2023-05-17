@@ -60,6 +60,8 @@ jobs:
       matrix:
         mayhemfile:
           - mayhem/diff.mayhemfile
+          - mayhem/diff_dump.mayhemfile
+          - mayhem/diff_marshal.mayhemfile
 
     steps:
       - uses: actions/checkout@v3

@@ -1,0 +1,6 @@
+project: PROJECT_NAME
+target: diff_marshal
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_diff_marshal.py
+      libfuzzer: true
