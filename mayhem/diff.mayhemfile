@@ -1,4 +1,4 @@
-project: PROJECT_NAME
+project: jsondiff
 target: diff
 duration: 600
 cmds:
