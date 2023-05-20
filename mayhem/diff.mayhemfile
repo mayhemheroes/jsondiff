@@ -1,0 +1,6 @@
+project: jsondiff
+target: diff
+duration: 600
+cmds:
+    - cmd: /src/mayhem/fuzz_diff.py
+      libfuzzer: true
